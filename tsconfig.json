@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "types",
+        "sourceMap": true,
+        "outDir": "dist",
+        // "allowJs": true,
+        "moduleResolution": "node",
+        "emitDeclarationOnly": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/index.tsx", "test/App.tsx"],
+    "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "src/**/*.stories.tsx"],
+    "files": ["./globals.d.ts"]
+}
